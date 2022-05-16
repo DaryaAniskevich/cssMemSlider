@@ -182,7 +182,7 @@ body {
     width: 80%;
   }
   .slider {
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
   }
   .slider-titles {
     font-size: 1rem;
@@ -192,7 +192,7 @@ body {
   }
   .slider-radio-labels {
     align-self: center;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
   }
   .slider-radio-labels__item {
     width: 1.5rem;
