@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Css Mem Slider</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <input
+          type="radio"
+          name="radio"
+          class="slider-navigation__item slider-navigation__item--one"
+          id="radio01"
+          checked
+        />
+        <input
+          type="radio"
+          class="slider-navigation__item slider-navigation__item--two"
+          name="radio"
+          id="radio02"
+        />
+        <input
+          type="radio"
+          class="slider-navigation__item slider-navigation__item--three"
+          name="radio"
+          id="radio03"
+        />
+        <input
+          type="radio"
+          class="slider-navigation__item slider-navigation__item--four"
+          name="radio"
+          id="radio04"
+        />
+        <div class="slider">
+          <div class="slider-wrapper">
+            <img
+              src="./images/mem1.jpg"
+              class="slider-wrapper__item slider-wrapper__item--one"
+              alt="mem 01"
+            />
+            <img
+              src="./images/mem2.jpg"
+              class="slider-wrapper__item slider-wrapper__item--two"
+              alt="mem 02"
+            />
+            <img
+              src="./images/mem3.jpg"
+              class="slider-wrapper__item slider-wrapper__item--three"
+              alt="mem 03"
+            />
+            <img
+              src="./images/mem4.jpg"
+              class="slider-wrapper__item slider-wrapper__item--four"
+              alt="mem 04"
+            />
+          </div>
+        </div>
+
+        <div class="slider-description">
+          <div class="slider-titles">
+            <div class="slider-titles-wrapper">
+              <div class="slider-titles__item slider-titles__item--one">
+                То, что вы увидите, называется мемы
+              </div>
+              <div class="slider-titles__item slider-titles__item--two">
+                То, что вы видите, называется мем
+              </div>
+              <div class="slider-titles__item slider-titles__item--three">
+                То, что вы увидели, называется мем
+              </div>
+              <div class="slider-titles__item slider-titles__item--four">
+                Сильное заявление
+              </div>
+            </div>
+          </div>
+          <div class="slider-radio-labels">
+            <label
+              for="radio01"
+              class="slider-radio-labels__item slider-radio-labels__item--one"
+              ><span class="button button01"></span
+            ></label>
+            <label
+              for="radio02"
+              class="slider-radio-labels__item slider-radio-labels__item--two"
+              ><span class="button button02"></span
+            ></label>
+            <label
+              for="radio03"
+              class="slider-radio-labels__item slider-radio-labels__item--three"
+              ><span class="button button03"></span
+            ></label>
+            <label
+              for="radio04"
+              class="slider-radio-labels__item slider-radio-labels__item--four"
+              ><span class="button button04"></span
+            ></label>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
